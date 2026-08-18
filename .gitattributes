@@ -14,3 +14,5 @@ config/credentials.yml.enc diff=rails_credentials
 *.html linguist-detectable=false
 *.erb linguist-detectable=false
 *.html.erb linguist-detectable=false
+
+app/views/* linguist-vendored
