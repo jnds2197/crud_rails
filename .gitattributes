@@ -9,3 +9,8 @@ config/credentials/*.yml.enc diff=rails_credentials
 config/credentials.yml.enc diff=rails_credentials
 
 *.rb linguist-language=Ruby
+
+# Ignore all HTML and view files in the repository statistics
+*.html linguist-detectable=false
+*.erb linguist-detectable=false
+*.html.erb linguist-detectable=false
